@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 20px 30px
+}
+
+.header h1 {
+  color: #FFF;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+}
+
+.header__link a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.header__link--button a {
+  padding: 10px 15px;
+  border: 1px solid #FFF;
+  border-radius: 8rem;
+}

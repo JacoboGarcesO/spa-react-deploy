@@ -1,0 +1,25 @@
+.errors {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../../assets/banner.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.errors__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  background-color: #000;
+  padding: 40px 50px;
+  text-align: center;
+}
+
+.errors__link {
+  text-decoration: none;
+  color: #5d1478;
+}

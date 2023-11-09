@@ -1,0 +1,19 @@
+.book {
+  padding: 30px;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #000;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.book__gender {
+  background-color: #000;
+  color: #FFF;
+  width: min-content;
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
